@@ -3,15 +3,14 @@
 */
 
 html {
-  background-color: #eeffff;
+  	background-color: #eeffff;
 }
  
 body {
-  background-color: #99ffff;
-  width: 600px;
-  border: 2px solid black;
-  padding: 0px 20px 20px 20px;
-  
+	background-color: #99ffff;
+  	border: 2px solid black;
+  	align: center;
+ 	padding: 0px 20px 20px 20px;
 }
 
 h1 {
@@ -19,6 +18,21 @@ h1 {
 	text-align: center;
 	margin: 0;
 	padding: 20px 0;
-	color: #ff00ff;  /* Fuchsia */
+	color: #002966; 
 	text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+	color: #002966;  /* Fuchsia */
+}
+
+/* Defining styling for a specific element type - each question */
+.question {
+  color: black;
+  margin: 20px;
+  padding: 20px;
 }
