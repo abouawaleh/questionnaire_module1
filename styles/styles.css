@@ -40,6 +40,7 @@ h3 {
 }
 
 input[type=text] {
+  width: 100%;
   border: none;
   border-bottom: 2px solid DodgerBlue;
 }
@@ -85,7 +86,7 @@ form .likert li label {width:100%;}
 /* -------------------Custom select styles------------------- */
 .custom-select select {
    background: DodgerBlue;
-   width: 268px;
+   width: 100%;
    padding: 5px;
    font-size: 16px;
    line-height: 1;
