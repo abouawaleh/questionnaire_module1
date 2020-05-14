@@ -8,7 +8,7 @@ html {
  
 body {
 	background-color: #99ffff;
-  	border: 2px solid black;
+	width: 1200px;
   	align: center;
  	padding: 0px 20px 20px 20px;
 }
