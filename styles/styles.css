@@ -4,12 +4,12 @@
 
 html {
   	background-color: #b3ffff;
+ 	padding: 0px 100px 0px 100px;
 }
  
 body {
 	background-color: #99ffff;
-	width: 70%;
-	height: 80%;
+	width: 80%;
   	margin: auto;
 	border-radius: 25px;
  	padding: 20px 20px 20px 20px;
