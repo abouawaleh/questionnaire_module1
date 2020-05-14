@@ -8,8 +8,10 @@ html {
  
 body {
 	background-color: #99ffff;
-	width: 1200px;
+	width: 60%;
   	align: center;
+	border: 3px solid #001433;
+	border-radius: 25px;
  	padding: 0px 20px 20px 20px;
 }
 
@@ -27,12 +29,29 @@ h2 {
 	text-align: center;
 	margin: 0;
 	padding: 10px 0;
-	color: #002966;  /* Fuchsia */
+	color: #002966; 
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+	color: #002966; 
 }
 
 /* Defining styling for a specific element type - each question */
 .question {
   color: black;
+  margin: 20px;
+  padding: 20px;
+  align: center;
+}
+
+/* Defining styling for a specific element type - each answer */
+.reponse {
+  color: black;
+  font-size: 20px;
   margin: 20px;
   padding: 20px;
 }
